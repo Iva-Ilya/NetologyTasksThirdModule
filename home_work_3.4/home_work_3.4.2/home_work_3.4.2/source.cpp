@@ -28,7 +28,7 @@ void increase_size_array(int*& array, int& actual_size)
 	actual_size = actual_size * 2;
 }
 
-void print_array(int*& array, int logical_size, int actual_size)
+void print_array(int* array, int logical_size, int actual_size)
 {
 	for (int i = 0; i < actual_size; i++)
 	{
