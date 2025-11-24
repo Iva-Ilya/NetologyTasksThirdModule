@@ -11,6 +11,7 @@ int* create_array(int logical_size, int actual_size)
 		std::cout << "¬ведите array[" << i << "] = ";
 		std::cin >> element;
 		array[i] = element;
+
 	}
 	return array;
 }
